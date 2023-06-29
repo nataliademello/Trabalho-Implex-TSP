@@ -44,7 +44,7 @@ class Solucao:
 
         Returns:
             A distância total da solução.
-        """  # noqa: E501
+        """ 
         distancia = 0
         for p1, p2 in pairwise(self.pontos):
             distancia += p1.distancia(p2)
