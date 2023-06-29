@@ -99,7 +99,7 @@ class Solucao:
 
         Yields:
             Uma solução vizinha da solução corrente.
-        """  # noqa: E501
+        """  
         for k in range(2, len(self.pontos) - 1):
             yield self.gera_vizinho(i=1, k=k)
 

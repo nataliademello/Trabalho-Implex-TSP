@@ -103,7 +103,7 @@ def main():
                 )
 
                 append(
-                    f"{parametro.k} | {parametro.K_t} | {parametro.T_max} | {parametro.T_min} | {melhor_solucao_simulated_annealing.distancia}"  # noqa: E501
+                    f"{parametro.k} | {parametro.K_t} | {parametro.T_max} | {parametro.T_min} | {melhor_solucao_simulated_annealing.distancia}"
                 )
 
             append("")
