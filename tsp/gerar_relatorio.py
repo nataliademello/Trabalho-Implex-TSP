@@ -28,12 +28,12 @@ parametros_simulated_annealing = [
         K_t=25,
         T_min=10,
     ),
-    # Caso C (definir)
+    # Caso C (encontrado)
     # ParametrosSimulatedAnnealing(
-    #     T_max=-1,
-    #     k=-1,
-    #     K_t=-1,
-    #     T_min=-1,
+    #     T_max=1238,
+    #     k=0.99,
+    #     K_t=365,
+    #     T_min=-18,
     # ),
 ]
 
@@ -53,6 +53,10 @@ parametros_hill_climbing = [
     ParametrosHillClimbing(
         max_iter=7,
     ),
+    # Caso C (encontrado)
+    # ParametrosHillClimbing(
+    #     max_iter=19,
+    # ),
 ]
 
 
